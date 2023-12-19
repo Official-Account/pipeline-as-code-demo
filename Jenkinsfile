@@ -7,7 +7,6 @@ pipeline {
 			stage('Build') {
 				steps {
 					echo 'Building..'
-					sh 'echo "SSH private key is located at $SSH_CREDS"'
 				}
 			}
 			stage('compile'){
